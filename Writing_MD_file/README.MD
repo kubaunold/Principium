@@ -3,8 +3,9 @@
 
 This site has all you need [tips for writing .md file](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-PS
+## PS
 *md* stands for *markdown communication*.
+
 *markdown* (język znaczników) is a language of tags created by Gruber and Swartz
 
 ## For example
