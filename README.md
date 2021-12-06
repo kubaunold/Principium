@@ -10,7 +10,15 @@ Go inside a folder and read the corresponding `README.MD` file
 ### zsh
 [Install `zsh` and `oh-my-zsh` instead of `bash`](https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/)  
 [set `zsh` as a default shell](https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell)  
-[zsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+[zsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)  
+
+samples:  
+`ga .`          - *git add*  
+`gcmsg "msg"`   - *git commit -m "msg"*  
+`gp`            - *git push*  
+
+when configuring first time:  
+`git config --global user.email "jakub@unold.pl"`
 
 ### Use ssh authentication to push and pull from github
 [connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)  
