@@ -23,6 +23,13 @@ when configuring first time:
 ### Use ssh authentication to push and pull from github
 [connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)  
 [To switch from https to ssh](https://linuxize.com/post/how-to-remove-git-remotes/)
+tl;dr
+`ls -al ~/.ssh` - sprawdz czy masz juz *pub'a
+jak nie, to `ssh-keygen -t ed25519 -C "jakub@unold.pl"`
+`cat ~/.ssh/id_ed25519.pub`
+skopiuj to wyjdzie i wrzuc do `add new ssh->`
+w title daj `os@hardware`
+
 
 ### Make .iso image of your sdcard
 first check out what is mounted b4 inserting sdcard
