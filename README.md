@@ -24,3 +24,15 @@ when configuring first time:
 [connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)  
 [To switch from https to ssh](https://linuxize.com/post/how-to-remove-git-remotes/)
 
+### Make .iso image of your sdcard
+first check out what is mounted b4 inserting sdcard
+`sudo blkid`
+or
+`df -h`
+then check again after inserting sdcard. You should receive your sd card name as  
+`/dev/sdb`  
+or  
+`/dev/mmcblk0`  
+Lastly, make a copy  
+`sudo dd if=/dev/mmcblk0 of=/home/kuba/backup.iso
+`
