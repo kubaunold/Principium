@@ -55,3 +55,6 @@ then flash an iso by typing
 
 (*) :face_in_clouds: Remember to add empty ssh file in `boot` folder of the sdcard if you're flasihng raspbian 
 EDIT: this does not work for me :joy:
+
+### markdown emoji
+[link to cheatsheeet](https://github.com/ikatyang/emoji-cheat-sheet)
