@@ -54,3 +54,4 @@ then flash an iso by typing
 `sudo dd if=2021-10-30-raspios-bullseye-armhf-lite.img of=/dev/mmcblk0`
 
 (*) :face_in_clouds: Remember to add empty ssh file in `boot` folder of the sdcard if you're flasihng raspbian 
+EDIT: this does not work for me :joy:
