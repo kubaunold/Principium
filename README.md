@@ -50,5 +50,7 @@ if your sdcard shows up as:
 /dev/mmcblk0p1  253M   49M  204M  20% /media/kuba/boot
 /dev/mmcblk0p2   28G  4,8G   22G  19% /media/kuba/rootfs
 ```
-then flash an iso by typing 
+then flash an iso by typing  
 `sudo dd if=2021-10-30-raspios-bullseye-armhf-lite.img of=/dev/mmcblk0`
+
+(*) :face_in_clouds: Remember to add empty ssh file in `boot` folder of the sdcard if you're flasihng raspbian 
