@@ -41,5 +41,14 @@ then check again after inserting sdcard. You should receive your sd card name as
 or  
 `/dev/mmcblk0`  
 Lastly, make a copy  
-`sudo dd if=/dev/mmcblk0 of=/home/kuba/backup.iso
-`
+`sudo dd if=/dev/mmcblk0 of=/home/kuba/backup.iso`  
+
+### Flash .iso to an sdcard
+see deviced by typing `df -h`
+if your sdcard shows up as:
+```
+/dev/mmcblk0p1  253M   49M  204M  20% /media/kuba/boot
+/dev/mmcblk0p2   28G  4,8G   22G  19% /media/kuba/rootfs
+```
+then flash an iso by typing 
+`sudo dd if=2021-10-30-raspios-bullseye-armhf-lite.img of=/dev/mmcblk0`
