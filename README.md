@@ -58,3 +58,8 @@ EDIT: this does not work for me :joy:
 
 ### markdown emoji
 [link to cheatsheeet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+### scan network for active devices
+`nmap -sP 192.168.0.0/24` - it will scan 256 addresses such as 192.168.0.101 and etc.
+`ifconfig` or `ipconfig` is deprecated  
+use: `ip address show` 
