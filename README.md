@@ -9,6 +9,16 @@ Go inside a folder and read the corresponding `README.MD` file
 
 ### zsh
 [Install `zsh` and `oh-my-zsh` instead of `bash`](https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/)  
+tl;dr  
+`sudo apt install zsh`  
+`sudo chsh -s /usr/bin/zsh root`  
+`apt install wget git`  
+`wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh`
+`cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+source ~/.zshrc`
+`zsh`
+and reboot
+
 [set `zsh` as a default shell](https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell)  
 [zsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)  
 
