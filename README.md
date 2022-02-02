@@ -73,3 +73,10 @@ EDIT: this does not work for me :joy:
 `nmap -sP 192.168.0.0/24` - it will scan 256 addresses such as 192.168.0.101 and etc.
 `ifconfig` or `ipconfig` is deprecated  
 use: `ip address show` 
+
+### insatlling poetry
+
+## Poetry
+[How to install poetry](https://vocuzi.in/blog/python-poetry-install-ubuntu-debian/)  
+[Basic usage of poetry](https://python-poetry.org/docs/basic-usage/)  
+
